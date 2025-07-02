@@ -13,6 +13,6 @@ docker run -d -p 3000:3000 loupeznik/ha-tester:1.0.1
 ## Install via Helm
 
 ```shell
-helm repo add loupeznik https://helm.dzarsky.eu
+helm repo add loupeznik https://loupeznik.github.io/charts
 helm upgrade --install ha-tester loupeznik/ha-tester
 ```
